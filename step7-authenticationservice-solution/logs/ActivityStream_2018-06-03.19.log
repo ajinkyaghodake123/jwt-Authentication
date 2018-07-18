@@ -1,0 +1,256 @@
+2018-06-03 17:02:35 [background-preinit] DEBUG org.jboss.logging -
+				Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-06-03 17:02:35 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.6.Final
+2018-06-03 17:02:35 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.boot.enableautoconfiguration' in any property source
+2018-06-03 17:02:35 [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -
+				Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-06-03 17:02:35 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2018-06-03 17:02:35 [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -
+				Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-06-03 17:02:35 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:35 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.messages.basename' in any property source
+2018-06-03 17:02:36 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Resolved classpath location [messages.properties] to resources []
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.application.admin.enabled' in PropertySource 'systemProperties' with value of type String
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-03 17:02:36 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registered bean definition for imported class 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-06-03 17:02:36 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerMapping()
+2018-06-03 17:02:36 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcPathMatcher()
+2018-06-03 17:02:36 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUrlPathHelper()
+2018-06-03 17:02:36 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcContentNegotiationManager()

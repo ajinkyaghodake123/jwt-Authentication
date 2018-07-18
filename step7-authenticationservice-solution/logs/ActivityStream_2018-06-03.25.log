@@ -1,0 +1,635 @@
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/aspect] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/config] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/model] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/repository] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/service] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-03 17:02:38 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Resolved location pattern [classpath*:com/stackroute/**/*.class] to resources [file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/AuthenticationServiceBoot.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/aspect/LoggingAspect.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/config/JwtFilter.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller/UserAuthenticateController.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller/UserController.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/model/User.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/repository/UserRepository.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/service/UserService.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/service/UserServiceImpl.class]]
+2018-06-03 17:02:38 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-03 17:02:38 [main] DEBUG o.h.jpa.internal.util.LogHelper -
+				PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@764c12b6
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.apache.tomcat.jdbc.pool.DataSource@442f92e6{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://localhost:3306/${MYSQL_DATABASE}?verifyServerCertificate=false&useSSL=false&requireSSL=false; username=${MYSQL_USER}; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.stackroute.activitystream.model.User]
+	Mapping files names []
+	Properties []
+2018-06-03 17:02:38 [main] DEBUG o.h.i.internal.IntegratorServiceImpl -
+				Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2018-06-03 17:02:38 [main] DEBUG o.h.i.internal.IntegratorServiceImpl -
+				Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2018-06-03 17:02:38 [main] DEBUG o.h.i.internal.IntegratorServiceImpl -
+				Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2018-06-03 17:02:38 [main] DEBUG o.h.i.internal.IntegratorServiceImpl -
+				Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+2018-06-03 17:02:38 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate Core {5.0.12.Final}
+2018-06-03 17:02:38 [main] INFO  org.hibernate.cfg.Environment -
+				HHH000206: hibernate.properties not found
+2018-06-03 17:02:38 [main] INFO  org.hibernate.cfg.Environment -
+				HHH000021: Bytecode provider name : javassist
+2018-06-03 17:02:38 [main] DEBUG o.h.service.spi.ServiceBinding -
+				Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2018-06-03 17:02:38 [main] DEBUG o.h.c.i.RegionFactoryInitiator -
+				Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2018-06-03 17:02:38 [main] INFO  o.h.annotations.common.Version -
+				HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@320a8ebf
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@320a8ebf
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@320a8ebf
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@22e5f96e
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration true_false -> org.hibernate.type.TrueFalseType@3b4d50b
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration yes_no -> org.hibernate.type.YesNoType@59ed3e6c
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@47ffe971
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@47ffe971
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@47ffe971
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration character -> org.hibernate.type.CharacterType@6cd5122d
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char -> org.hibernate.type.CharacterType@6cd5122d
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6cd5122d
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@70c53dbe
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@70c53dbe
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Short -> org.hibernate.type.ShortType@70c53dbe
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration integer -> org.hibernate.type.IntegerType@15383681
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration int -> org.hibernate.type.IntegerType@15383681
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@15383681
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@1d23ff23
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@1d23ff23
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Long -> org.hibernate.type.LongType@1d23ff23
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@1e43e323
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@1e43e323
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1e43e323
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@49c675f0
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@49c675f0
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@49c675f0
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1bc49bc5
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1bc49bc5
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_integer -> org.hibernate.type.BigIntegerType@24e83d19
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@24e83d19
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration string -> org.hibernate.type.StringType@37e0292a
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.String -> org.hibernate.type.StringType@37e0292a
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nstring -> org.hibernate.type.StringNVarcharType@44e93c1f
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7c36db44
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration url -> org.hibernate.type.UrlType@78cd163b
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.net.URL -> org.hibernate.type.UrlType@78cd163b
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration date -> org.hibernate.type.DateType@612e21b9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Date -> org.hibernate.type.DateType@612e21b9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration time -> org.hibernate.type.TimeType@4068102e
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4068102e
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timestamp -> org.hibernate.type.TimestampType@472a11ae
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@472a11ae
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Date -> org.hibernate.type.TimestampType@472a11ae
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@46185a1b
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar -> org.hibernate.type.CalendarType@4ee5b2d9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4ee5b2d9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4ee5b2d9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@33899f7a
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration locale -> org.hibernate.type.LocaleType@5292ceca
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5292ceca
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration currency -> org.hibernate.type.CurrencyType@1ba359bd
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1ba359bd
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timezone -> org.hibernate.type.TimeZoneType@f951a7f
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@f951a7f
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration class -> org.hibernate.type.ClassType@2e8a1ab4
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2e8a1ab4
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@53ec2968
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@53ec2968
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5d5c04f9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration binary -> org.hibernate.type.BinaryType@6724cdec
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte[] -> org.hibernate.type.BinaryType@6724cdec
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [B -> org.hibernate.type.BinaryType@6724cdec
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@546e61d5
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@546e61d5
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@546e61d5
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration row_version -> org.hibernate.type.RowVersionType@b606cb6
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration image -> org.hibernate.type.ImageType@1e8ab90f
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration characters -> org.hibernate.type.CharArrayType@1f7076bc
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char[] -> org.hibernate.type.CharArrayType@1f7076bc
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [C -> org.hibernate.type.CharArrayType@1f7076bc
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1907874b
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1907874b
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1907874b
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration text -> org.hibernate.type.TextType@5ef6fd7f
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ntext -> org.hibernate.type.NTextType@14b789f6
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration blob -> org.hibernate.type.BlobType@4047d2d9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4047d2d9
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@22587507
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration clob -> org.hibernate.type.ClobType@1e58512c
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1e58512c
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nclob -> org.hibernate.type.NClobType@10a0fe30
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@10a0fe30
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@31ee2fdb
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@46c269e0
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration serializable -> org.hibernate.type.SerializableType@102ecc22
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration object -> org.hibernate.type.ObjectType@3968bc60
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3968bc60
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@9596ce8
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@75ae4a1f
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@70228253
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@63c12e52
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@21bd20ee
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@26c47874
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@421056e5
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2849434b
+2018-06-03 17:02:38 [main] ERROR o.a.tomcat.jdbc.pool.ConnectionPool -
+				Unable to create initial connections of pool.
+java.sql.SQLException: Access denied for user '${MYSQL_USER}'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2191)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:360)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:382)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:371)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stackroute.activitystream.AuthenticationServiceBoot.main(AuthenticationServiceBoot.java:30)
+2018-06-03 17:02:38 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator -
+				HHH000342: Could not obtain connection to query metadata : Access denied for user '${MYSQL_USER}'@'localhost' (using password: YES)
+2018-06-03 17:02:38 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-03 17:02:38 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder -
+				IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2018-06-03 17:02:38 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl -
+				HHH000422: Disabling contextual LOB creation as connection was null
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				    - overriding [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-06-03 17:02:38 [main] DEBUG o.h.boot.model.relational.Namespace -
+				Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.AnnotationBinder -
+				Binding entity from annotated class: com.stackroute.activitystream.model.User
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.EntityBinder -
+				Import with entity name User
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.EntityBinder -
+				Bind entity com.stackroute.activitystream.model.User on table user
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=username, insertable=true, updatable=true, unique=false}
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property username with lazy=false
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:username]
+2018-06-03 17:02:38 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for username
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property username
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property name with lazy=false
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:name]
+2018-06-03 17:02:38 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for name
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property name
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property password with lazy=false
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:password]
+2018-06-03 17:02:38 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for password
+2018-06-03 17:02:38 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property password
+2018-06-03 17:02:38 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for username
+2018-06-03 17:02:38 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for name
+2018-06-03 17:02:38 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for password
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.mapping.PrimaryKey -
+				Forcing column [username] to be non-null as it is part of the primary key for table [user]
+2018-06-03 17:02:38 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Building session factory
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				SessionFactory name : null
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Automatic flush during beforeCompletion(): disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Automatic session close at end of transaction: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Statistics: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Deleted entity synthetic identifier rollback: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Default entity-mode: pojo
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Allow initialization of lazy state outside session : disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Using BatchFetchStyle : LEGACY
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Default batch fetch size: -1
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Maximum outer join fetch depth: 2
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Default null ordering: NONE
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Order SQL updates by primary key: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Order SQL inserts for batching: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				multi-tenancy strategy : NONE
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				JTA Track by Thread: enabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Query language substitutions: {}
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				JPA query language strict compliance: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Named query checking : enabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level cache: enabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level query cache: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@5a50d9fc
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level cache region prefix: null
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Optimize second-level cache for minimal puts: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Structured second-level cache entries: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level cache direct-reference entries: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Automatic eviction of collection cache: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC batch size: 0
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC batch updates for versioned data: enabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Scrollable result sets: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Wrap result sets: disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC3 getGeneratedKeys(): disabled
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC result set fetch size: null
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Connection release mode: ON_CLOSE
+2018-06-03 17:02:38 [main] DEBUG org.hibernate.cfg.Settings -
+				Generate SQL with comments: disabled
+2018-06-03 17:02:38 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Returning a Reference to the SessionFactory
+2018-06-03 17:02:38 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Session factory constructed with filter configurations : {}
+2018-06-03 17:02:38 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=/tmp/tomcat.8065049522575718971.8082, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=false, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, sun.desktop=gnome, spring.application.admin.enabled=true, com.sun.management.jmxremote=, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12, spring.liveBeansView.mbeanDomain=, user.name=ajinkya, javax.persistence.validation.mode=AUTO, user.language=en, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, com.sun.management.jmxremote.port=33615, PID=13346, java.version=1.8.0_151, user.timezone=Asia/Kolkata, sun.arch.data.model=64, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, java.rmi.server.randomIDs=true, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=IN, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, os.version=4.13.0-36-generic, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@49f40c00, hibernate.connection.datasource=org.apache.tomcat.jdbc.pool.DataSource@442f92e6{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://localhost:3306/${MYSQL_DATABASE}?verifyServerCertificate=false&useSSL=false&requireSSL=false; username=${MYSQL_USER}; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }, com.sun.management.jmxremote.ssl=false, path.separator=:, java.vm.version=25.151-b12, org.jboss.logging.provider=slf4j, hibernate.id.new_generator_mappings=false, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, com.sun.management.jmxremote.authenticate=false, java.security.egd=file:/dev/./urandom, user.home=/home/ajinkya, java.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, hibernate.hbm2ddl.auto=update, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, spring.beaninfo.ignore=true, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.ejb.persistenceUnitName=default, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=com.stackroute.activitystream.AuthenticationServiceBoot --spring.output.ansi.enabled=always, java.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.5.9.RELEASE/spring-boot-starter-data-jpa-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.9.RELEASE/spring-boot-starter-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.9.RELEASE/spring-boot-starter-logging-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/ajinkya/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/ajinkya/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/home/ajinkya/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar:/home/ajinkya/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.5.9.RELEASE/spring-boot-starter-aop-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.5.9.RELEASE/spring-boot-starter-jdbc-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.5.23/tomcat-jdbc-8.5.23.jar:/home/ajinkya/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.23/tomcat-juli-8.5.23.jar:/home/ajinkya/.m2/repository/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar:/home/ajinkya/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/ajinkya/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/ajinkya/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/ajinkya/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/ajinkya/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/home/ajinkya/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/ajinkya/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/ajinkya/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar:/home/ajinkya/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/ajinkya/.m2/repository/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/data/spring-data-commons/1.13.9.RELEASE/spring-data-commons-1.13.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-orm/4.3.13.RELEASE/spring-orm-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-tx/4.3.13.RELEASE/spring-tx-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/ajinkya/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/ajinkya/.m2/repository/org/springframework/spring-aspects/4.3.13.RELEASE/spring-aspects-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.9.RELEASE/spring-boot-starter-web-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.9.RELEASE/spring-boot-starter-tomcat-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar:/home/ajinkya/.m2/repository/org/apache/tomcat/tomcat-annotations-api/8.5.23/tomcat-annotations-api-8.5.23.jar:/home/ajinkya/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.23/tomcat-embed-el-8.5.23.jar:/home/ajinkya/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.23/tomcat-embed-websocket-8.5.23.jar:/home/ajinkya/.m2/repository/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final.jar:/home/ajinkya/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/ajinkya/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/ajinkya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar:/home/ajinkya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/ajinkya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.10/jackson-core-2.8.10.jar:/home/ajinkya/.m2/repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-expression/4.3.13.RELEASE/spring-expression-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.9.RELEASE/spring-boot-starter-test-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.9.RELEASE/spring-boot-test-autoconfigure-1.5.9.RELEASE.jar:/home/ajinkya/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/ajinkya/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/ajinkya/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/ajinkya/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/ajinkya/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/ajinkya/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/ajinkya/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/ajinkya/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/ajinkya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ajinkya/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/ajinkya/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/ajinkya/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/ajinkya/.m2/repository/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE.jar:/home/ajinkya/.m2/repository/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, catalina.home=/tmp/tomcat.8065049522575718971.8082, sun.cpu.endian=little, sun.os.patch.level=unknown, java.awt.headless=true, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, javax.persistence.sharedCache.mode=UNSPECIFIED, java.rmi.server.hostname=localhost, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, user.dir=/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@643d2dae, file.encoding=UTF-8, java.specification.version=1.8}
+2018-06-03 17:02:38 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -
+				Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-06-03 17:02:38 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -
+				Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-06-03 17:02:38 [main] DEBUG o.h.v.i.xml.ValidationXmlParser -
+				Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-06-03 17:02:38 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper -
+				Trying to load META-INF/validation.xml via TCCL
+2018-06-03 17:02:38 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper -
+				Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-06-03 17:02:38 [main] DEBUG o.h.v.i.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only.
+2018-06-03 17:02:38 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				Not known whether passed class name [com.stackroute.activitystream.model.User] is safe
+2018-06-03 17:02:38 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.User
+2018-06-03 17:02:38 [main] DEBUG o.h.secure.spi.JaccIntegrator -
+				Skipping JACC integration as it was not enabled
+2018-06-03 17:02:38 [main] DEBUG o.hibernate.engine.spi.CascadeStyles -
+				External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+2018-06-03 17:02:38 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				Not known whether passed class name [com.stackroute.activitystream.model.User] is safe
+2018-06-03 17:02:38 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.User
+2018-06-03 17:02:38 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				Not known whether passed class name [com.stackroute.activitystream.model.User] is safe
+2018-06-03 17:02:38 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.User
+2018-06-03 17:02:38 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				Static SQL for entity: com.stackroute.activitystream.model.User
+2018-06-03 17:02:38 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Version select: select username from user where username =?
+2018-06-03 17:02:38 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Snapshot select: select user_.username, user_.name as name2_0_, user_.password as password3_0_ from user user_ where user_.username=?
+2018-06-03 17:02:38 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Insert 0: insert into user (name, password, username) values (?, ?, ?)
+2018-06-03 17:02:38 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Update 0: update user set name=?, password=? where username=?
+2018-06-03 17:02:38 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Delete 0: delete from user where username=?
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl -
+				Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d634127]
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : name
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : password
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -
+				Building LoadPlan...
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor -
+				processing queryspace <gen:0>
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter -
+				LoadPlan(entity=com.stackroute.activitystream.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.User, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {username1_0_0_}
+
+2018-06-03 17:02:38 [main] DEBUG o.h.loader.entity.plan.EntityLoader -
+				Static select for entity com.stackroute.activitystream.model.User [NONE]: select user0_.username as username1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.username=?
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl -
+				Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a9344f5]
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : name
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : password
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -
+				Building LoadPlan...
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor -
+				processing queryspace <gen:0>
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter -
+				LoadPlan(entity=com.stackroute.activitystream.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.User, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {username1_0_0_}
+
+2018-06-03 17:02:38 [main] DEBUG o.h.loader.entity.plan.EntityLoader -
+				Static select for entity com.stackroute.activitystream.model.User [READ]: select user0_.username as username1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.username=?
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl -
+				Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c9c6245]
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : name
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : password
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -
+				Building LoadPlan...
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor -
+				processing queryspace <gen:0>
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter -
+				LoadPlan(entity=com.stackroute.activitystream.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.User, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {username1_0_0_}
+
+2018-06-03 17:02:38 [main] DEBUG o.h.loader.entity.plan.EntityLoader -
+				Static select for entity com.stackroute.activitystream.model.User [UPGRADE]: select user0_.username as username1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.username=? for update
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl -
+				Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1d4fb213]
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : name
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : password
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -
+				Building LoadPlan...
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor -
+				processing queryspace <gen:0>
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter -
+				LoadPlan(entity=com.stackroute.activitystream.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.User, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {username1_0_0_}
+
+2018-06-03 17:02:38 [main] DEBUG o.h.loader.entity.plan.EntityLoader -
+				Static select for entity com.stackroute.activitystream.model.User [UPGRADE_NOWAIT]: select user0_.username as username1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.username=? for update
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl -
+				Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3127cb44]
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : name
+2018-06-03 17:02:38 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : password
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -
+				Building LoadPlan...
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor -
+				processing queryspace <gen:0>
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter -
+				LoadPlan(entity=com.stackroute.activitystream.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.User, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {username1_0_0_}
+
+2018-06-03 17:02:38 [main] DEBUG o.h.loader.entity.plan.EntityLoader -
+				Static select for entity com.stackroute.activitystream.model.User [UPGRADE_SKIPLOCKED]: select user0_.username as username1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.username=? for update
+2018-06-03 17:02:38 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl -
+				Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@631cb129]

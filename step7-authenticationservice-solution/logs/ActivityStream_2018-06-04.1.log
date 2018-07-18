@@ -1,0 +1,96 @@
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.name:application' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.name' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'PORT:null' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'PORT' in PropertySource 'systemEnvironment' with value of type String
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'server.port:27017' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'server.port' in PropertySource 'applicationConfigurationProperties' with value of type Integer
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.index:8082' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.index' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'vcap.application.instance_index:8082' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'vcap.application.instance_index' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.profiles.active' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2018-06-04 09:05:17 [main] INFO  c.s.a.AuthenticationServiceBoot -
+				Starting AuthenticationServiceBoot on ajinkya-ThinkPad-L470-W10DG with PID 15786 (/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes started by ajinkya in /home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution)
+2018-06-04 09:05:17 [main] DEBUG c.s.a.AuthenticationServiceBoot -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.profiles.active' in any property source
+2018-06-04 09:05:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.profiles.default' in any property source
+2018-06-04 09:05:17 [main] INFO  c.s.a.AuthenticationServiceBoot -
+				No active profile set, falling back to default profiles: default
+2018-06-04 09:05:17 [main] DEBUG o.s.boot.SpringApplication -
+				Loading source class com.stackroute.activitystream.AuthenticationServiceBoot
+2018-06-04 09:05:17 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2018-06-04 09:05:17 [main] DEBUG o.s.b.c.c.ConfigFileApplicationListener -
+				Loaded config file 'file:/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/application.yml' (classpath:/application.yml)
+2018-06-04 09:05:17 [main] DEBUG o.s.b.c.c.ConfigFileApplicationListener -
+				Skipped (empty) config file 'file:/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/application.yml' (classpath:/application.yml) for profile default
+2018-06-04 09:05:17 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5542c4ed: startup date [Mon Jun 04 09:05:17 IST 2018]; root of context hierarchy
+2018-06-04 09:05:17 [main] DEBUG o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Bean factory for org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5542c4ed: org.springframework.beans.factory.support.DefaultListableBeanFactory@3c73951: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,authenticationServiceBoot]; root of factory hierarchy
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' to allow for resolving potential circular references
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2018-06-04 09:05:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-06-04 09:05:17 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Resolved classpath location [com/stackroute/] to resources [URL [file:/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/]]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Looking for matching resources in directory tree [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/aspect] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/config] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/model] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/repository] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Searching directory [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/service] for files matching pattern [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/**/*.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver -
+				Resolved location pattern [classpath*:com/stackroute/**/*.class] to resources [file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/AuthenticationServiceBoot.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/aspect/LoggingAspect.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/config/JwtFilter.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller/UserAuthenticateController.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller/UserController.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/model/User.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/repository/UserRepository.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/service/UserService.class], file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/service/UserServiceImpl.class]]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/aspect/LoggingAspect.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller/UserAuthenticateController.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/controller/UserController.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/model/User.class]
+2018-06-04 09:05:17 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [/home/ajinkya/rutuja/activitystream-step7-solution/step7-authenticationservice-solution/target/classes/com/stackroute/activitystream/service/UserServiceImpl.class]
